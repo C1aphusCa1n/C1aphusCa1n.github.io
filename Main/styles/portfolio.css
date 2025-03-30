@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap');
+
+body {
+    background-color: black;
+    color: #0ff; /* Neon Blue */
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #000;
+    border-bottom: 2px solid #0ff;
+    box-shadow: 0 0 10px #0ff;
+}
+
+.navbar-brand, .nav-link {
+    color: #0ff !important;
+    text-shadow: 0 0 5px #0ff;
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+    text-shadow: 0 0 10px #0ff;
+}
+
+h1, h2 {
+    text-shadow: 0 0 10px #0ff;
+    font-weight: 700;
+}
+
+hr {
+    border: 1px solid #0ff;
+    box-shadow: 0 0 5px #0ff;
+}
+
+.btn-primary {
+    background-color: #000;
+    border: 2px solid #0ff;
+    color: #0ff;
+    text-shadow: 0 0 5px #0ff;
+    font-weight: 700;
+}
+
+.btn-primary:hover {
+    background-color: #0ff;
+    color: #000;
+    box-shadow: 0 0 10px #0ff;
+}
+
+.btn-secondary {
+    background-color: #000;
+    border: 2px solid #0ff;
+    color: #0ff;
+    text-shadow: 0 0 5px #0ff;
+    font-weight: 700;
+}
+
+.btn-secondary:hover {
+    background-color: #0ff;
+    color: #000;
+    box-shadow: 0 0 10px #0ff;
+}
