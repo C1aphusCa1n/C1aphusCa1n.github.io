@@ -92,3 +92,34 @@ body {
     color: #00c6ff;
   }
   
+/* Common section box style */
+.section-box {
+  border: 3px solid #00f7ff;
+  box-shadow: 0 0 20px #00f7ff;
+  border-radius: 15px;
+  background-color: #0d0d0d;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+/* Center ul blocks inside */
+.section-box ul {
+  display: inline-block;
+  padding-left: 0;
+  margin: 1rem 0;
+  text-align: left; /* keeps nested items aligned left for clarity */
+}
+
+/* Center text inside li and increase font size */
+.section-box li {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Optional: slightly larger headings inside section boxes */
+.section-box h2 {
+  font-size: 2rem;
+}
